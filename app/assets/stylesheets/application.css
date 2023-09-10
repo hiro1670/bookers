@@ -14,10 +14,79 @@
  *= require_self
  */
 
-ul {
+h1 {
+  font-size: 25px;
+  margin: 25px;
+}
+
+
+table {
+  margin: 0 30px;
+}
+
+td {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.head-line {
+  margin: 0 30px;
+}
+
+.book-top {
+  margin: 0 60px;
+  font-size: 13px;
+}
+
+.book-show {
+  margin: 50px;
+}
+
+.show-title {
   display: flex;
 }
 
-.book.body {
+.title-field {
   margin-left: 20px;
+  padding-top: 5px;
+}
+
+.show-body {
+  display: flex;
+}
+
+.body-field {
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.show-link {
+  display: flex;
+  margin-left: 20px;
+}
+
+.show-edit {
+  padding-right: 10px;
+  border-right: 1px solid #000;
+}
+
+
+
+.show-back {
+  padding-left: 10px;
+}
+
+.book-edit {
+  margin-left: 30px;
+  position: relative;
+}
+
+.edit-show {
+  padding-top: 10px;
+}
+
+.edit-back {
+  display: inline-block;
+  border-left: 1px solid #000;
+  padding-left: 5px;
 }
